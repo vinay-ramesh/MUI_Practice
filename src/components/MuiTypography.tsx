@@ -19,7 +19,7 @@ export const MuiTypography = () => {
       <Typography variant="subtitle1">subtitle1</Typography>
       <Typography variant="subtitle2">subtitle2</Typography>
 
-      {/* p tag of text - body1 - 16px and defualt, body2 is smaller */}
+      {/* p tag of text - body1 - 16px and default, body2 is smaller */}
       <Typography variant="body1">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus
         voluptates dolores nam optio facere quae porro suscipit! Quo,

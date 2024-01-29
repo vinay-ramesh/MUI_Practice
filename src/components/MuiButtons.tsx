@@ -27,7 +27,7 @@ const MuiButtons = () => {
     <Stack spacing={4}>
       <Stack spacing={2} direction={"row"}>
         <Button variant="text" href="https://www.google.com">
-          Text
+          Link to Google
         </Button>
         <Button variant="contained">Contained</Button>
         <Button variant="outlined">Outlined</Button>
@@ -106,7 +106,7 @@ const MuiButtons = () => {
           variant="contained"
           startIcon={<SendIcon />}
           disableRipple
-          onClick={() => alert("Hello")}
+          // onClick={() => alert("Hello")}
         >
           Send
         </Button>
@@ -116,7 +116,7 @@ const MuiButtons = () => {
         </Button>
         {/* Button without text */}
 
-        <IconButton aria-label="send" color="success" size="small">
+        <IconButton aria-label="send" color="primary" size="small">
           <SendIcon />
         </IconButton>
       </Stack>
@@ -150,7 +150,11 @@ const MuiButtons = () => {
           <ToggleButton value={"italic"} aria-label="italic">
             <FormatItalicIcon />
           </ToggleButton>
-          <ToggleButton value={"underlined"} aria-label="underlined">
+          <ToggleButton
+            value={"underlined"}
+            aria-label="underlined"
+            disableRipple
+          >
             <FormatUnderlinedIcon />
           </ToggleButton>
         </ToggleButtonGroup>

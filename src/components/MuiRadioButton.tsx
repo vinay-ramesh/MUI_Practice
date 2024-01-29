@@ -19,7 +19,7 @@ const MuiRadioButton = () => {
 
   return (
     <Box>
-      <FormControl error>
+      <FormControl /* error */>
         <FormLabel id="job-experience-group-label">
           Years of Experience
         </FormLabel>
