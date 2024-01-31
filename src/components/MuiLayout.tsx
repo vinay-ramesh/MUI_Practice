@@ -14,6 +14,8 @@ import { Box, Stack, Divider, Grid, Paper } from "@mui/material";
 
 // Paper component provides visual hierarchy while building layouts -- helps building card and also helps to define section in UI
 const MuiBoxLayout = () => {
+  console.log("Hello");
+  console.log("Hello");
   return (
     <Paper sx={{ padding: "32px" }} elevation={2}>
       <Stack
