@@ -2,7 +2,9 @@
   /* text-align: center; */
   padding: 4rem;
 }
-
+body{
+  /* background-color: lightcyan; */
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
